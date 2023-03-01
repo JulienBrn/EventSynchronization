@@ -1,7 +1,7 @@
 from __future__ import annotations
 from typing import List, Callable, Tuple, TypeVar
 import bisect
-from PiecewiseCteFct import PiecewiseCteFct, ValueType
+from event_synchronization.PiecewiseCteFct import PiecewiseCteFct, ValueType
 
 import numpy as np
 import pandas as pd

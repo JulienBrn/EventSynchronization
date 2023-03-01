@@ -2,9 +2,9 @@ from distutils.core import setup
 
 
 setup(
-    name='eventsynchronization',
-    packages=['eventsynchronization'],
-    version='0.1',
+    name='event_synchronization',
+    packages=['event_synchronization'],
+    version='0.3',
     license='MIT',
     description = 'A synchronization API for two event channels not based on Dynamic Time Warping. ',
     description_file = "README.md",
@@ -15,4 +15,5 @@ setup(
     package_dir={'': 'src'},
     keywords=['python',  'event', 'synchronization'],
     install_requires=['pandas'],
+    python_requires='>=3.10'
 )
